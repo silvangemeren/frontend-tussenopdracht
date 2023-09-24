@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid black;
+}
+
+nav {
+    display: flex;
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(0, 33, 95);
+}
+
+.logolink {
+    background-color: rgb(1, 1, 46)
+}
+
+a {
+    padding: 15px;
+    color: white;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+section {
+
+}
+
+.product {
+display: flex;
+margin: 30px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.productomschrijving {
+
+}
+
+.prijsenomschrijving {
+
+}
+
+.prijs {
+    content: "\20AC";
+}
+
+.productomschrijving {
+
+}
+
+button {
+    cursor: pointer;
+    background-color: darkblue;
+    padding: 14px 34px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 5px 5px 10px rgba(0 0 0 / 0.4)
+}
+
+button:hover {
+    color: darkblue;
+    background-color: white;
+}
+
+.producttwee{
+    display: flex;
+    border: solid black;
+}
+
+.plusmin{
+    border: solid lightskyblue;
+    background-color: lightskyblue;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+}
+
+.omschrijvingtwee{
+
+}
+
+.gerprod{
+    background-color: lightgrey;
+}
+
+.fotogerprod{
+    background-color: lightgrey;
+}
+
+footer{
+    
+}
+
+img {
+    width: 400px;
+}
